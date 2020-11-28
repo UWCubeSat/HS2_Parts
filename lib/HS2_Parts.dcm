@@ -1,0 +1,76 @@
+EESchema-DOCLIB  Version 2.0
+#
+$CMP AD5245
+D 256-Position I2C Compatible Digital Potentiometer
+F https://www.analog.com/media/en/technical-documentation/data-sheets/AD5245.pdf
+$ENDCMP
+#
+$CMP DAC5687IPZP
+D 16-BIT, 500 MSPS 2×–8× INTERPOLATING DUAL-CHANNEL
+K DAC
+F https://www.ti.com/lit/ds/symlink/dac5687.pdf?HQS=TI-null-null-digikeymode-df-pf-null-wwe&ts=1603431592423
+$ENDCMP
+#
+$CMP DRV10970
+D DRV10970 Three-Phase Brushless DC Motor Driver
+K Motor Driver
+F https://www.ti.com/lit/ds/symlink/drv10970.pdf?HQS=TI-null-null-digikeymode-df-pf-null-wwe&ts=1604208046281
+$ENDCMP
+#
+$CMP ETXO-H33CL-100.000
+D ETXO-H2 (2.5V) and ETXO-H3 (3.3V) low jitter, low current SMD Temperature Compensated Crystal Oscillators
+K TCXO, Oscillator
+F https://ecsxtal.com/store/pdf/ETXO-H.pdf
+$ENDCMP
+#
+$CMP IS61LF12836
+D IC SRAM 4.5M PARALLEL 100TQFP
+K SRAM
+F http://www.issi.com/WW/pdf/61-64VF_LF12836A_25618A.pdf
+$ENDCMP
+#
+$CMP LTC1662
+D Ultralow Power, Dual 10-Bit DAC in MSOP
+F https://www.analog.com/media/en/technical-documentation/data-sheets/1662fa.pdf
+$ENDCMP
+#
+$CMP LTC2941
+D Battery Gas Gauge with Temperature, Voltage Measurement, MSSOP-8
+K Fuel gauge coulomb counter I2C
+F https://www.analog.com/media/en/technical-documentation/data-sheets/LTC2941.pdf
+$ENDCMP
+#
+$CMP LTC3113
+D 3A Low Noise Buck-Boost DC/DC Converter
+K Buck-Boost
+F https://www.analog.com/media/en/technical-documentation/data-sheets/3113f.pdf
+$ENDCMP
+#
+$CMP NCT75
+D Industry Standard Digital Temperature Sensor with 2-Wire Interface
+F https://datasheet.lcsc.com/szlcsc/ON-Semicon-ON-NCT75MNR2G_C146741.pdf
+$ENDCMP
+#
+$CMP OPA349
+D 1uA, Rail to Rail I/O CMOS Operational Amplifier
+K opamp rail cmos
+F https://www.ti.com/lit/ds/symlink/opa349.pdf?ts=1594941378242&ref_url=https%253A%252F%252Fwww.google.com%252F
+$ENDCMP
+#
+$CMP RBP-253+
+D Bandpass Filter 186-340MHz 50 Ohm Metal Shield
+K Bandpass Filter
+F https://www.minicircuits.com/pdfs/RBP-253+.pdf
+$ENDCMP
+#
+$CMP TPS2024
+D Power Distribution Switch
+F https://www.ti.com/lit/ds/symlink/tps2024.pdf?ts=1594957590395&ref_url=https%253A%252F%252Fwww.ti.com%252Fproduct%252FTPS2024
+$ENDCMP
+#
+$CMP TPS2060
+D Current Limited Power-Distribution Switches
+F https://www.ti.com/lit/ds/symlink/tps2064.pdf?ts=1594954936913&ref_url=https%253A%252F%252Fwww.google.com%252F
+$ENDCMP
+#
+#End Doc Library
