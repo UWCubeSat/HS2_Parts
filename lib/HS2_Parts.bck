@@ -23,6 +23,10 @@ K TCXO, Oscillator
 F https://ecsxtal.com/store/pdf/ETXO-H.pdf
 $ENDCMP
 #
+$CMP HMC667LP2ETR
+D IC RF AMP GP, 2.3 - 2.7 GHz, 6DFN
+$ENDCMP
+#
 $CMP IS61LF12836
 D IC SRAM 4.5M PARALLEL 100TQFP
 K SRAM
@@ -46,6 +50,14 @@ K Buck-Boost
 F https://www.analog.com/media/en/technical-documentation/data-sheets/3113f.pdf
 $ENDCMP
 #
+$CMP MAX2681EUT+T
+D IC MIXER, 400 MHz - 2.5 GHz, Down Converter, SOT23-6
+$ENDCMP
+#
+$CMP MAX2750AUA+
+D RF IC VCO ISM, 2.4 - 2.5 GHz, On-Chip Tank Circuit 8-uMAX
+$ENDCMP
+#
 $CMP NCT75
 D Industry Standard Digital Temperature Sensor with 2-Wire Interface
 F https://datasheet.lcsc.com/szlcsc/ON-Semicon-ON-NCT75MNR2G_C146741.pdf
@@ -61,6 +73,10 @@ $CMP RBP-253+
 D Bandpass Filter 186-340MHz 50 Ohm Metal Shield
 K Bandpass Filter
 F https://www.minicircuits.com/pdfs/RBP-253+.pdf
+$ENDCMP
+#
+$CMP SE2565T-R
+D RF Amplifier IC General Purpose, 2.4 - 2.5 GHz, 16-QFN (3x3)
 $ENDCMP
 #
 $CMP TPS2024
