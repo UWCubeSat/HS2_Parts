@@ -5,6 +5,10 @@ D 256-Position I2C Compatible Digital Potentiometer
 F https://www.analog.com/media/en/technical-documentation/data-sheets/AD5245.pdf
 $ENDCMP
 #
+$CMP ADE-3G+
+D Surface Mount Frequency Mixer, 2.3-2.7 GHz, 
+$ENDCMP
+#
 $CMP DAC5687IPZP
 D 16-BIT, 500 MSPS 2×–8× INTERPOLATING DUAL-CHANNEL
 K DAC
