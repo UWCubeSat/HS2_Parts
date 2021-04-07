@@ -6,7 +6,13 @@ F https://www.analog.com/media/en/technical-documentation/data-sheets/AD5245.pdf
 $ENDCMP
 #
 $CMP ADE-3G+
-D Surface Mount Frequency Mixer, 2.3-2.7 GHz, 
+D Surface Mount Frequency Mixer, 2.3-2.7 GHz,
+$ENDCMP
+#
+$CMP AudioPlug3
+D Audio Jack, 3 Poles (Stereo / TRS)
+K audio jack plug stereo headphones TRRS connector 2.5mm 3.5mm 6.35mm
+F ~
 $ENDCMP
 #
 $CMP DAC5687IPZP
