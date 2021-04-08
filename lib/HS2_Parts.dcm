@@ -60,6 +60,18 @@ K Buck-Boost
 F https://www.analog.com/media/en/technical-documentation/data-sheets/3113f.pdf
 $ENDCMP
 #
+$CMP LTC6992-TSOT-23-6
+D TimerBlox Delay Block, Programmable, Noise Discriminator, Rising or Falling Edge, DFN-6
+K TimerBlox delay block noise discriminator
+F https://www.analog.com/media/en/technical-documentation/data-sheets/699412fb.pdf
+$ENDCMP
+#
+$CMP LTC6994xDCB-2
+D TimerBlox Debouncer, Programmable, Noise Discriminator, Rising and Falling Edges, DFN-6
+K TimerBlox debouncer noise discriminator
+F https://www.analog.com/media/en/technical-documentation/data-sheets/699412fb.pdf
+$ENDCMP
+#
 $CMP MAX2681EUT+T
 D IC MIXER, 400 MHz - 2.5 GHz, Down Converter, SOT23-6
 $ENDCMP
