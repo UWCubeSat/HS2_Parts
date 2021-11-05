@@ -37,6 +37,11 @@ $CMP HMC667LP2ETR
 D IC RF AMP GP, 2.3 - 2.7 GHz, 6DFN
 $ENDCMP
 #
+$CMP INA219B
+D High Side Current and Voltage Sensor with I2C Communication
+F https://www.ti.com/lit/ds/symlink/ina219.pdf
+$ENDCMP
+#
 $CMP IS61LF12836
 D IC SRAM 4.5M PARALLEL 100TQFP
 K SRAM
