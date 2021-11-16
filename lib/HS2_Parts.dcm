@@ -116,4 +116,10 @@ D Current Limited Power-Distribution Switches
 F https://www.ti.com/lit/ds/symlink/tps2064.pdf?ts=1594954936913&ref_url=https%253A%252F%252Fwww.google.com%252F
 $ENDCMP
 #
+$CMP TPS2595x1
+D  eFuse With Fast Overvoltage Protection
+K eFuse Voltage Over Protection
+F https://www.ti.com/lit/ds/symlink/tps2595.pdf?ts=1637047165376&ref_url=https%253A%252F%252Fwww.google.com%252F
+$ENDCMP
+#
 #End Doc Library
