@@ -15,6 +15,12 @@ K audio jack plug stereo headphones TRRS connector 2.5mm 3.5mm 6.35mm
 F ~
 $ENDCMP
 #
+$CMP BQ25798
+D Fully integrated switch-mode buck-boost converter for 1-4 cell Li-Ion batteries with MPPT for PV panel input.
+K MPPT, battery charge controller, solar, PV, buck boost
+F https://www.ti.com/lit/ds/symlink/bq25798.pdf?ts=1635170577985&ref_url=https%253A%252F%252Fwww.ti.com%252Fproduct%252FBQ25798
+$ENDCMP
+#
 $CMP DAC5687IPZP
 D 16-BIT, 500 MSPS 2×–8× INTERPOLATING DUAL-CHANNEL
 K DAC
