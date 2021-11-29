@@ -91,6 +91,12 @@ $CMP MAX2750AUA+
 D RF IC VCO ISM, 2.4 - 2.5 GHz, On-Chip Tank Circuit 8-uMAX
 $ENDCMP
 #
+$CMP Molex_USB_C
+D 2171790001 SMD USB-C Connector from Molex
+K USB C
+F https://www.molex.com/webdocs/datasheets/pdf/en-us/2171790001_IO_CONNECTORS.pdf
+$ENDCMP
+#
 $CMP NCT75
 D Industry Standard Digital Temperature Sensor with 2-Wire Interface
 F https://datasheet.lcsc.com/szlcsc/ON-Semicon-ON-NCT75MNR2G_C146741.pdf
