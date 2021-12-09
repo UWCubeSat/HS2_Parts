@@ -1,5 +1,10 @@
 EESchema-DOCLIB  Version 2.0
 #
+$CMP 1048-2S-18650-Holder
+D 2 Cell 18650 Holder
+F https://www.keyelco.com/userAssets/file/M65p27.pdf
+$ENDCMP
+#
 $CMP AD5245
 D 256-Position I2C Compatible Digital Potentiometer
 F https://www.analog.com/media/en/technical-documentation/data-sheets/AD5245.pdf
@@ -21,16 +26,41 @@ K MPPT, battery charge controller, solar, PV, buck boost
 F https://www.ti.com/lit/ds/symlink/bq25798.pdf?ts=1635170577985&ref_url=https%253A%252F%252Fwww.ti.com%252Fproduct%252FBQ25798
 $ENDCMP
 #
+$CMP BQ2920x
+D Battery Balancing and OVP for 2S
+F https://www.ti.com/lit/ds/symlink/bq29200.pdf?ts=1638501607265&ref_url=https%253A%252F%252Fwww.ti.com%252Fproduct%252FBQ29200
+$ENDCMP
+#
+$CMP BQ298xyz
+D Voltage, Current, and Temperature Protection for 1S Li Batteries
+F https://www.ti.com/lit/ds/symlink/bq2982.pdf?ts=1638519129580&ref_url=https%253A%252F%252Fwww.ti.com%252Fproduct%252FBQ2982
+$ENDCMP
+#
 $CMP DAC5687IPZP
 D 16-BIT, 500 MSPS 2×–8× INTERPOLATING DUAL-CHANNEL
 K DAC
 F https://www.ti.com/lit/ds/symlink/dac5687.pdf?HQS=TI-null-null-digikeymode-df-pf-null-wwe&ts=1603431592423
 $ENDCMP
 #
+$CMP DMN3016LFDE
+D N-Channel 8.5-10A mosfet
+F https://www.diodes.com/assets/Datasheets/DMN3016LFDE.pdf
+$ENDCMP
+#
+$CMP DMP3026SFDE
+D P-Channel 8.5-10A mosfet
+F https://www.diodes.com/assets/Datasheets/DMP3026SFDE.pdf
+$ENDCMP
+#
 $CMP DRV10970
 D DRV10970 Three-Phase Brushless DC Motor Driver
 K Motor Driver
 F https://www.ti.com/lit/ds/symlink/drv10970.pdf?HQS=TI-null-null-digikeymode-df-pf-null-wwe&ts=1604208046281
+$ENDCMP
+#
+$CMP DS2775
+D 2-Cell Fuel Gauge (not balancing)
+F https://datasheets.maximintegrated.com/en/ds/DS2775-DS2778.pdf
 $ENDCMP
 #
 $CMP ETXO-H33CL-100.000
