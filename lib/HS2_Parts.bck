@@ -1,5 +1,10 @@
 EESchema-DOCLIB  Version 2.0
 #
+$CMP 1048-2S-18650-Holder
+D 2 Cell 18650 Holder
+F https://www.keyelco.com/userAssets/file/M65p27.pdf
+$ENDCMP
+#
 $CMP AD5245
 D 256-Position I2C Compatible Digital Potentiometer
 F https://www.analog.com/media/en/technical-documentation/data-sheets/AD5245.pdf
@@ -15,16 +20,51 @@ K audio jack plug stereo headphones TRRS connector 2.5mm 3.5mm 6.35mm
 F ~
 $ENDCMP
 #
+$CMP BQ25798
+D Fully integrated switch-mode buck-boost converter for 1-4 cell Li-Ion batteries with MPPT for PV panel input.
+K MPPT, battery charge controller, solar, PV, buck boost
+F https://www.ti.com/lit/ds/symlink/bq25798.pdf?ts=1635170577985&ref_url=https%253A%252F%252Fwww.ti.com%252Fproduct%252FBQ25798
+$ENDCMP
+#
+$CMP BQ2920x
+D Battery Balancing and OVP for 2S
+F https://www.ti.com/lit/ds/symlink/bq29200.pdf?ts=1638501607265&ref_url=https%253A%252F%252Fwww.ti.com%252Fproduct%252FBQ29200
+$ENDCMP
+#
+$CMP BQ298xyz
+D Voltage, Current, and Temperature Protection for 1S Li Batteries
+F https://www.ti.com/lit/ds/symlink/bq2982.pdf?ts=1638519129580&ref_url=https%253A%252F%252Fwww.ti.com%252Fproduct%252FBQ2982
+$ENDCMP
+#
 $CMP DAC5687IPZP
 D 16-BIT, 500 MSPS 2×–8× INTERPOLATING DUAL-CHANNEL
 K DAC
 F https://www.ti.com/lit/ds/symlink/dac5687.pdf?HQS=TI-null-null-digikeymode-df-pf-null-wwe&ts=1603431592423
 $ENDCMP
 #
+$CMP DMN3016LFDE
+D N-Channel 8.5-10A mosfet
+F https://www.diodes.com/assets/Datasheets/DMN3016LFDE.pdf
+$ENDCMP
+#
+$CMP DMP3026SFDE
+D P-Channel 8.5-10A mosfet
+F https://www.diodes.com/assets/Datasheets/DMP3026SFDE.pdf
+$ENDCMP
+#
 $CMP DRV10970
 D DRV10970 Three-Phase Brushless DC Motor Driver
 K Motor Driver
 F https://www.ti.com/lit/ds/symlink/drv10970.pdf?HQS=TI-null-null-digikeymode-df-pf-null-wwe&ts=1604208046281
+$ENDCMP
+#
+$CMP DS2775
+D 2-Cell Fuel Gauge (not balancing)
+F https://datasheets.maximintegrated.com/en/ds/DS2775-DS2778.pdf
+$ENDCMP
+#
+$CMP EFC2K103NUZTDG
+F https://www.onsemi.com/pdf/datasheet/efc2k103nuz-d.pdf
 $ENDCMP
 #
 $CMP ETXO-H33CL-100.000
@@ -35,6 +75,11 @@ $ENDCMP
 #
 $CMP HMC667LP2ETR
 D IC RF AMP GP, 2.3 - 2.7 GHz, 6DFN
+$ENDCMP
+#
+$CMP INA219B
+D High Side Current and Voltage Sensor with I2C Communication
+F https://www.ti.com/lit/ds/symlink/ina219.pdf
 $ENDCMP
 #
 $CMP IS61LF12836
@@ -80,6 +125,12 @@ $CMP MAX2750AUA+
 D RF IC VCO ISM, 2.4 - 2.5 GHz, On-Chip Tank Circuit 8-uMAX
 $ENDCMP
 #
+$CMP Molex_USB_C
+D 2171790001 SMD USB-C Connector from Molex
+K USB C
+F https://www.molex.com/webdocs/datasheets/pdf/en-us/2171790001_IO_CONNECTORS.pdf
+$ENDCMP
+#
 $CMP NCT75
 D Industry Standard Digital Temperature Sensor with 2-Wire Interface
 F https://datasheet.lcsc.com/szlcsc/ON-Semicon-ON-NCT75MNR2G_C146741.pdf
@@ -109,6 +160,17 @@ $ENDCMP
 $CMP TPS2060
 D Current Limited Power-Distribution Switches
 F https://www.ti.com/lit/ds/symlink/tps2064.pdf?ts=1594954936913&ref_url=https%253A%252F%252Fwww.google.com%252F
+$ENDCMP
+#
+$CMP TPS2595x1
+D  eFuse With Fast Overvoltage Protection
+K eFuse Voltage Over Protection
+F https://www.ti.com/lit/ds/symlink/tps2595.pdf?ts=1637047165376&ref_url=https%253A%252F%252Fwww.google.com%252F
+$ENDCMP
+#
+$CMP XT30
+D https://www.tme.com/us/en-us/details/xt30upb-f/dc-power-connectors/amass/
+F https://www.tme.com/Document/4acc913878197f8c2e30d4b8cdc47230/XT30UPB%20SPEC.pdf
 $ENDCMP
 #
 #End Doc Library
